@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dougs-hair-studio-somonauk.vercel.app/sitemap.xml
