@@ -6,18 +6,15 @@
 <title>Doug's Hair Studio for Men | Old-School Barbershop in Somonauk, IL</title>
 <meta name="description" content="Doug's Hair Studio for Men is a one-chair, old-school barbershop in downtown Somonauk, IL. Classic cuts, straight razor shaves, beard trims, and handmade hairpieces. Walk-ins welcome — call (815) 498-3300.">
 
-<!-- Canonical + robots -->
 <link rel="canonical" href="https://dougs-hair-studio-somonauk.vercel.app/">
 <meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="theme-color" content="#16171B">
 
-<!-- Geo -->
 <meta name="geo.region" content="US-IL">
 <meta name="geo.placename" content="Somonauk, Illinois">
 <meta name="geo.position" content="41.633832;-88.683747">
 <meta name="ICBM" content="41.633832, -88.683747">
 
-<!-- Open Graph -->
 <meta property="og:type" content="business.business">
 <meta property="og:url" content="https://dougs-hair-studio-somonauk.vercel.app/">
 <meta property="og:title" content="Doug's Hair Studio for Men | Old-School Barbershop in Somonauk, IL">
@@ -30,22 +27,18 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Doug's Hair Studio for Men">
 
-<!-- Twitter -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Doug's Hair Studio for Men | Somonauk, IL">
 <meta name="twitter:description" content="Old-school men's barbershop in downtown Somonauk. Classic cuts, straight razor shaves, beard trims. Walk-ins welcome.">
 <meta name="twitter:image" content="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1200&h=630&fit=crop">
 
-<!-- Favicon (brass D on charcoal) -->
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316171B'/%3E%3Ctext x='32' y='46' font-family='Georgia,serif' font-size='42' font-weight='700' text-anchor='middle' fill='%23C7A44E'%3ED%3C/text%3E%3C/svg%3E">
 <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2316171B'/%3E%3Ctext x='32' y='46' font-family='Georgia,serif' font-size='42' font-weight='700' text-anchor='middle' fill='%23C7A44E'%3ED%3C/text%3E%3C/svg%3E">
 
-<!-- Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800;900&family=Oswald:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;0,900;1,500;1,600&family=Oswald:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
 
-<!-- JSON-LD LocalBusiness -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -63,16 +56,8 @@
     "postalCode": "60552",
     "addressCountry": "US"
   },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 41.633832,
-    "longitude": -88.683747
-  },
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "reviewCount": "43"
-  },
+  "geo": { "@type": "GeoCoordinates", "latitude": 41.633832, "longitude": -88.683747 },
+  "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "43" },
   "openingHoursSpecification": [
     { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "07:00", "closes": "16:30" },
     { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "07:00", "closes": "12:00" }
@@ -93,184 +78,185 @@
 <style>
   :root{
     --bg:#16171B;
+    --bg-2:#121317;
     --surface:#1E2026;
     --surface-2:#23252C;
     --cream:#F2EAD8;
     --muted:#A7A091;
+    --muted-2:#857F72;
     --brass:#C7A44E;
     --brass-hi:#DBBA63;
     --brass-deep:#9E7F33;
     --line:rgba(199,164,78,.20);
     --line-soft:rgba(242,234,216,.10);
-    --shadow:0 18px 50px -18px rgba(0,0,0,.7);
+    --shadow:0 22px 60px -22px rgba(0,0,0,.75);
+    --photo-filter:saturate(.82) contrast(1.06) sepia(.10) brightness(.94);
     --maxw:1180px;
   }
   *{margin:0;padding:0;box-sizing:border-box}
   html{scroll-behavior:smooth}
-  body{
-    background:var(--bg);
-    color:var(--cream);
-    font-family:'Lora',Georgia,serif;
-    font-size:17px;
-    line-height:1.75;
-    -webkit-font-smoothing:antialiased;
-    overflow-x:hidden;
-  }
-  h1,h2,h3{font-family:'Playfair Display',Georgia,serif;line-height:1.08;font-weight:800;letter-spacing:-.01em}
-  .eyebrow{
-    font-family:'Oswald',sans-serif;
-    text-transform:uppercase;
-    letter-spacing:.32em;
-    font-size:.74rem;
-    font-weight:600;
-    color:var(--brass);
-  }
+  body{background:var(--bg);color:var(--cream);font-family:'Lora',Georgia,serif;font-size:17px;line-height:1.75;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+  h1,h2,h3{font-family:'Playfair Display',Georgia,serif;line-height:1.1;font-weight:800;letter-spacing:-.01em}
+  .eyebrow{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.34em;font-size:.74rem;font-weight:600;color:var(--brass)}
   .price-num{font-variant-numeric:lining-nums tabular-nums}
   a{color:inherit;text-decoration:none}
   .wrap{max-width:var(--maxw);margin:0 auto;padding:0 26px}
-  section{padding:104px 0;position:relative}
-  .sec-head{max-width:680px;margin-bottom:54px}
+  section{padding:108px 0;position:relative}
+  .sec-head{max-width:680px;margin-bottom:56px}
   .sec-head.center{margin-left:auto;margin-right:auto;text-align:center}
-  .sec-head h2{font-size:clamp(2.1rem,4.6vw,3.4rem);margin:14px 0 18px}
+  .sec-head h2{font-size:clamp(2.1rem,4.8vw,3.5rem);margin:12px 0 18px}
   .sec-head p{color:var(--muted);font-size:1.08rem}
-  .brass-rule{display:inline-block;width:54px;height:3px;background:var(--brass);border-radius:2px;margin-top:8px}
+  .brass-rule{display:inline-block;width:54px;height:3px;background:var(--brass);border-radius:2px;margin-top:6px}
+  .divider-ornament{display:flex;align-items:center;justify-content:center;gap:14px;margin:10px 0 0}
+  .divider-ornament span{height:1px;width:46px;background:var(--line)}
+  .divider-ornament svg{color:var(--brass)}
 
-  /* ---------- Header ---------- */
-  header{
-    position:fixed;top:0;left:0;right:0;z-index:60;
-    transition:background .35s ease,backdrop-filter .35s ease,border-color .35s ease,padding .35s ease;
-    border-bottom:1px solid transparent;
-  }
-  header.scrolled{
-    background:rgba(16,17,21,.78);
-    backdrop-filter:blur(14px) saturate(140%);
-    border-bottom:1px solid var(--line);
-  }
-  .nav{display:flex;align-items:center;justify-content:space-between;padding:20px 26px;max-width:var(--maxw);margin:0 auto;transition:padding .35s ease}
-  header.scrolled .nav{padding:13px 26px}
+  .btn{display:inline-flex;align-items:center;gap:11px;cursor:pointer;border:none;font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-weight:600;font-size:.95rem;padding:17px 34px;border-radius:5px;transition:transform .2s,box-shadow .25s,background .2s,color .2s}
+  .btn-primary{background:var(--brass);color:#171612;box-shadow:0 14px 34px -12px rgba(199,164,78,.6)}
+  .btn-primary:hover{background:var(--brass-hi);transform:translateY(-3px);box-shadow:0 20px 44px -12px rgba(199,164,78,.7)}
+  .btn-ghost{background:transparent;color:var(--cream);border:1.5px solid var(--line)}
+  .btn-ghost:hover{border-color:var(--brass);color:var(--brass);transform:translateY(-3px)}
+  .btn-pulse{animation:pulse 2.6s ease-in-out infinite}
+  @keyframes pulse{0%,100%{box-shadow:0 14px 34px -12px rgba(199,164,78,.6)}50%{box-shadow:0 14px 42px -8px rgba(199,164,78,.92)}}
+
+  .photo-ph{background:#000;position:relative;overflow:hidden;border-radius:10px;display:grid;place-items:center;text-align:center;border:1px solid rgba(199,164,78,.14)}
+  .ph-fallback{color:#6f6a5e;z-index:0}
+  .ph-fallback .cam{width:34px;height:34px;opacity:.5;margin-bottom:8px}
+  .ph-fallback .lbl{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.2em;font-size:.62rem;color:#7d7768}
+  .photo-ph img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;filter:var(--photo-filter);transition:transform .7s cubic-bezier(.2,.7,.2,1),filter .5s}
+  .photo-ph:hover img{transform:scale(1.05);filter:saturate(.95) contrast(1.04) brightness(1)}
+  .photo-frame{position:relative;border-radius:12px}
+  .photo-frame::after{content:"";position:absolute;inset:14px;border:1px solid rgba(242,234,216,.28);border-radius:8px;z-index:2;pointer-events:none;transition:inset .4s}
+  .photo-frame:hover::after{inset:10px}
+
+  header{position:fixed;top:0;left:0;right:0;z-index:60;transition:background .35s,backdrop-filter .35s,border-color .35s,padding .35s;border-bottom:1px solid transparent}
+  header.scrolled{background:rgba(16,17,21,.82);backdrop-filter:blur(14px) saturate(140%);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:18px 26px;max-width:var(--maxw);margin:0 auto;transition:padding .35s}
+  header.scrolled .nav{padding:12px 26px}
   .brand{display:flex;align-items:center;gap:13px}
-  .brand-mark{
-    width:46px;height:46px;border:2px solid var(--brass);border-radius:50%;
-    display:grid;place-items:center;flex:none;
-    font-family:'Playfair Display',serif;font-weight:800;font-size:1.45rem;color:var(--brass);
-    background:radial-gradient(circle at 30% 25%,rgba(199,164,78,.18),transparent 70%);
-  }
-  .brand-txt b{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.14em;font-size:1.02rem;font-weight:600;display:block;line-height:1}
-  .brand-txt span{font-size:.66rem;letter-spacing:.34em;text-transform:uppercase;color:var(--muted);font-family:'Oswald',sans-serif}
-  .nav-links{display:flex;align-items:center;gap:30px}
-  .nav-links a{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:.82rem;color:var(--muted);transition:color .2s}
-  .nav-links a:hover{color:var(--cream)}
-  .nav-cta{
-    font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.1em;font-size:.82rem;font-weight:600;
-    background:var(--brass);color:#171612;padding:11px 22px;border-radius:4px;transition:transform .2s,box-shadow .2s,background .2s;
-  }
+  .brand-mark{width:46px;height:46px;border:2px solid var(--brass);border-radius:50%;display:grid;place-items:center;flex:none;font-family:'Playfair Display',serif;font-weight:800;font-size:1.45rem;color:var(--brass);background:radial-gradient(circle at 30% 25%,rgba(199,164,78,.18),transparent 70%)}
+  .brand-txt b{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.14em;font-size:1rem;font-weight:600;display:block;line-height:1}
+  .brand-txt span{font-size:.64rem;letter-spacing:.34em;text-transform:uppercase;color:var(--muted);font-family:'Oswald',sans-serif}
+  .nav-links{display:flex;align-items:center;gap:26px}
+  .nav-links a{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:.8rem;color:var(--muted);transition:color .2s;position:relative}
+  .nav-links a::after{content:"";position:absolute;left:0;bottom:-6px;width:0;height:2px;background:var(--brass);transition:width .25s}
+  .nav-links a:hover{color:var(--cream)}.nav-links a:hover::after{width:100%}
+  .nav-cta{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.1em;font-size:.8rem;font-weight:600;background:var(--brass);color:#171612;padding:11px 22px;border-radius:4px;transition:transform .2s,box-shadow .2s,background .2s}
   .nav-cta:hover{background:var(--brass-hi);transform:translateY(-2px);box-shadow:0 10px 26px -8px rgba(199,164,78,.55)}
   .menu-btn{display:none;background:none;border:none;color:var(--cream);cursor:pointer}
 
-  /* ---------- Buttons ---------- */
-  .btn{
-    display:inline-flex;align-items:center;gap:11px;cursor:pointer;border:none;
-    font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-weight:600;font-size:.95rem;
-    padding:17px 34px;border-radius:5px;transition:transform .2s,box-shadow .25s,background .2s,color .2s;
-  }
-  .btn-primary{background:var(--brass);color:#171612;box-shadow:0 14px 34px -12px rgba(199,164,78,.6)}
-  .btn-primary:hover{background:var(--brass-hi);transform:translateY(-3px);box-shadow:0 20px 44px -12px rgba(199,164,78,.7)}
-  .btn-ghost{background:transparent;color:var(--cream);border:1.5px solid var(--line);}
-  .btn-ghost:hover{border-color:var(--brass);color:var(--brass);transform:translateY(-3px)}
-  .btn-pulse{animation:pulse 2.6s ease-in-out infinite}
-  @keyframes pulse{0%,100%{box-shadow:0 14px 34px -12px rgba(199,164,78,.6)}50%{box-shadow:0 14px 40px -8px rgba(199,164,78,.92)}}
-
-  /* ---------- Photo placeholders ---------- */
-  .photo-ph{
-    background:#000;position:relative;overflow:hidden;border-radius:8px;
-    display:grid;place-items:center;text-align:center;color:#6f6a5e;
-    border:1px solid rgba(199,164,78,.14);
-  }
-  .photo-ph .cam{width:34px;height:34px;opacity:.5;margin-bottom:8px}
-  .photo-ph .lbl{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.2em;font-size:.62rem;color:#7d7768}
-  .photo-ph::after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(199,164,78,.05),transparent 60%);pointer-events:none}
-
-  /* ---------- Hero ---------- */
-  .hero{padding-top:172px;padding-bottom:96px;position:relative}
-  .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:58px;align-items:center}
-  .hero h1{font-size:clamp(2.7rem,6.6vw,5rem);margin:20px 0 22px;font-weight:900}
+  .hero{min-height:100vh;display:flex;align-items:center;position:relative;overflow:hidden}
+  .hero-bg{position:absolute;inset:0;z-index:0}
+  .hero-bg img{width:100%;height:100%;object-fit:cover;filter:saturate(.7) contrast(1.05) brightness(.55)}
+  .hero-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(105deg,rgba(16,17,21,.94) 0%,rgba(16,17,21,.78) 42%,rgba(16,17,21,.35) 100%)}
+  .hero-inner{position:relative;z-index:2;width:100%;max-width:var(--maxw);margin:0 auto;padding:120px 26px 80px}
+  .hero-copy{max-width:38rem}
+  .hero h1{font-size:clamp(2.9rem,7vw,5.6rem);margin:18px 0 22px;font-weight:900;line-height:1.02}
   .hero h1 em{font-style:italic;color:var(--brass);font-weight:800}
-  .hero-lead{font-size:1.2rem;color:var(--muted);max-width:30rem;margin-bottom:18px}
-  .hero-rating{display:flex;align-items:center;gap:11px;margin:22px 0 30px;font-family:'Oswald',sans-serif;font-size:.86rem;letter-spacing:.08em;color:var(--muted)}
+  .hero-lead{font-size:1.22rem;color:#d9d2c1;max-width:32rem;margin-bottom:14px}
+  .hero-rating{display:flex;align-items:center;gap:11px;margin:20px 0 32px;font-family:'Oswald',sans-serif;font-size:.86rem;letter-spacing:.08em;color:var(--muted)}
   .stars{color:var(--brass);letter-spacing:2px;font-size:1rem}
   .hero-cta{display:flex;gap:15px;flex-wrap:wrap}
-  .hero-photo{position:relative}
-  .hero-photo .photo-ph{aspect-ratio:4/5;min-height:430px}
-  .hero-badge{
-    position:absolute;bottom:-22px;left:-22px;background:var(--surface);border:1px solid var(--line);
-    border-radius:10px;padding:18px 22px;box-shadow:var(--shadow);
-  }
-  .hero-badge b{font-family:'Playfair Display',serif;font-size:1.7rem;color:var(--brass);display:block;line-height:1}
-  .hero-badge span{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.16em;font-size:.6rem;color:var(--muted)}
-  .hero-deco{position:absolute;top:120px;right:-60px;width:340px;height:340px;border-radius:50%;background:radial-gradient(circle,rgba(199,164,78,.12),transparent 70%);filter:blur(8px);z-index:-1}
+  .scroll-cue{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);z-index:2;color:var(--muted);font-family:'Oswald',sans-serif;font-size:.62rem;letter-spacing:.3em;text-transform:uppercase;display:flex;flex-direction:column;align-items:center;gap:8px;animation:bob 2.4s ease-in-out infinite}
+  @keyframes bob{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(7px)}}
 
-  /* ---------- Strip ---------- */
-  .strip{border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);padding:26px 0}
-  .strip-grid{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;align-items:center}
-  .strip-item{display:flex;align-items:center;gap:12px;font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.1em;font-size:.82rem;color:var(--muted)}
-  .strip-item svg{color:var(--brass);flex:none}
+  .intro-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;align-items:center}
+  .dropcap::first-letter{font-family:'Playfair Display',serif;font-size:3.4rem;font-weight:800;color:var(--brass);float:left;line-height:.82;margin:6px 12px 0 0}
+  .intro-body p{margin-bottom:18px;color:#d9d2c1}
+  .intro-body .cols{column-count:2;column-gap:32px}
+  .intro-body .cols p{margin-bottom:14px;font-size:.98rem}
+  .intro-stats{display:flex;gap:34px;margin-top:26px;flex-wrap:wrap}
+  .intro-stat b{font-family:'Playfair Display',serif;font-size:2.1rem;color:var(--brass);display:block;line-height:1}
+  .intro-stat span{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.14em;font-size:.64rem;color:var(--muted)}
+  .intro-photo .photo-ph{aspect-ratio:4/5;min-height:440px}
+  .intro-photo .signoff{font-family:'Playfair Display',serif;font-style:italic;font-size:1.25rem;color:var(--brass);margin-top:20px;text-align:right}
 
-  /* ---------- About ---------- */
-  .about-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:56px;align-items:center}
-  .about-photo .photo-ph{aspect-ratio:1/1;min-height:380px}
-  .about-body p{margin-bottom:18px;color:#d9d2c1}
-  .about-body p.lead{font-size:1.22rem;color:var(--cream);font-family:'Playfair Display',serif;font-style:italic;line-height:1.5}
-  .signoff{font-family:'Playfair Display',serif;font-style:italic;font-size:1.3rem;color:var(--brass);margin-top:8px}
+  .feature{position:relative;padding:0;min-height:520px;display:flex;align-items:center;overflow:hidden}
+  .feature .feat-bg{position:absolute;inset:0;z-index:0}
+  .feature .feat-bg img{width:100%;height:100%;object-fit:cover;filter:saturate(.7) contrast(1.05) brightness(.5)}
+  .feature .feat-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(rgba(16,17,21,.74),rgba(16,17,21,.82))}
+  .feature-inner{position:relative;z-index:2;max-width:var(--maxw);margin:0 auto;padding:90px 26px;width:100%;text-align:center}
+  .play-call{width:84px;height:84px;border-radius:50%;border:2px solid var(--brass);display:inline-grid;place-items:center;color:var(--brass);margin-bottom:28px;position:relative;transition:transform .25s,background .25s,color .25s}
+  .play-call::before{content:"";position:absolute;inset:-12px;border-radius:50%;border:1px solid rgba(199,164,78,.3);animation:ring 2.4s ease-out infinite}
+  @keyframes ring{0%{transform:scale(.9);opacity:.8}100%{transform:scale(1.25);opacity:0}}
+  .play-call:hover{background:var(--brass);color:#171612;transform:scale(1.06)}
+  .feature blockquote{font-family:'Playfair Display',serif;font-style:italic;font-size:clamp(1.6rem,3.6vw,2.6rem);max-width:42rem;margin:0 auto 14px;line-height:1.3}
+  .feature cite{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.18em;font-size:.78rem;color:var(--brass);font-style:normal}
 
-  /* ---------- Services ---------- */
-  .svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
-  .svc-card{
-    background:var(--surface);border:1px solid var(--line-soft);border-radius:12px;overflow:hidden;
-    transition:transform .3s,border-color .3s,box-shadow .3s;display:flex;flex-direction:column;
-  }
-  .svc-card:hover{transform:translateY(-7px);border-color:var(--line);box-shadow:var(--shadow)}
-  .svc-card .photo-ph{aspect-ratio:16/11;border-radius:0;border:none;border-bottom:1px solid var(--line-soft)}
-  .svc-body{padding:24px 24px 28px}
-  .svc-body h3{font-size:1.32rem;margin-bottom:9px}
-  .svc-body h3 .tag{display:inline-block;font-family:'Oswald',sans-serif;font-size:.56rem;letter-spacing:.18em;text-transform:uppercase;color:#171612;background:var(--brass);padding:3px 8px;border-radius:3px;vertical-align:middle;margin-left:8px}
-  .svc-body p{color:var(--muted);font-size:.98rem;line-height:1.6}
+  .trust{border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft);padding:34px 0;background:var(--bg-2)}
+  .trust-grid{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap;text-align:center}
+  .trust-item{flex:1;min-width:150px}
+  .trust-item b{font-family:'Playfair Display',serif;font-size:1.9rem;color:var(--brass);display:block;line-height:1}
+  .trust-item span{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.14em;font-size:.64rem;color:var(--muted);display:block;margin-top:6px}
 
-  /* ---------- Reviews ---------- */
+  .price-row{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+  .price-row+.price-row{margin-top:80px}
+  .price-row .photo-ph{aspect-ratio:5/4;min-height:360px}
+  .price-list-head h3{font-size:clamp(1.7rem,3.4vw,2.4rem);margin-bottom:6px}
+  .price-list-head .brass-rule{margin-bottom:26px}
+  .price-item{padding:15px 0;border-bottom:1px dashed var(--line-soft)}
+  .price-item:last-child{border-bottom:none}
+  .price-item .top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+  .price-item .nm{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.04em;font-size:1.02rem;color:var(--cream);white-space:nowrap}
+  .price-item .tag{font-family:'Oswald',sans-serif;font-size:.52rem;letter-spacing:.18em;text-transform:uppercase;color:#171612;background:var(--brass);padding:3px 7px;border-radius:3px}
+  .price-item .lead-dots{flex:1;border-bottom:1px dotted var(--muted-2);transform:translateY(-4px);min-width:18px}
+  .price-item .amt{font-family:'Playfair Display',serif;font-weight:700;font-size:1.25rem;color:var(--brass);white-space:nowrap}
+  .price-item p{color:var(--muted);font-size:.9rem;margin-top:4px;line-height:1.5}
+  .price-note{margin-top:26px;font-size:.86rem;color:var(--muted-2);font-style:italic}
+
+  .testi{position:relative;overflow:hidden}
+  .testi .testi-bg{position:absolute;inset:0;z-index:0}
+  .testi .testi-bg img{width:100%;height:100%;object-fit:cover;filter:saturate(.6) contrast(1.05) brightness(.4)}
+  .testi .testi-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(rgba(16,17,21,.86),rgba(16,17,21,.9))}
+  .testi-inner{position:relative;z-index:2}
   .rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
-  .rev-card{background:var(--surface);border:1px solid var(--line-soft);border-radius:12px;padding:30px 28px;position:relative}
-  .rev-card .q{font-family:'Playfair Display',serif;font-size:3.4rem;color:var(--brass);opacity:.3;line-height:.6;position:absolute;top:22px;right:24px}
+  .rev-card{background:rgba(30,32,38,.72);backdrop-filter:blur(6px);border:1px solid var(--line-soft);border-radius:12px;padding:32px 28px;position:relative}
+  .rev-card .q{font-family:'Playfair Display',serif;font-size:3.6rem;color:var(--brass);opacity:.32;line-height:.5;position:absolute;top:26px;right:24px}
   .rev-stars{color:var(--brass);letter-spacing:2px;margin-bottom:14px}
-  .rev-card p{font-style:italic;color:#ded7c6;margin-bottom:18px}
-  .rev-name{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:.82rem;color:var(--brass)}
+  .rev-card p{font-style:italic;color:#ded7c6;margin-bottom:20px}
+  .rev-who{display:flex;align-items:center;gap:12px}
+  .rev-av{width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--brass),var(--brass-deep));display:grid;place-items:center;font-family:'Playfair Display',serif;font-weight:700;color:#171612;flex:none}
+  .rev-name{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:.8rem;color:var(--brass)}
+  .rev-loc{font-size:.72rem;color:var(--muted)}
 
-  /* ---------- Visit / hours ---------- */
+  .hours{position:relative;overflow:hidden}
+  .hours .hours-bg{position:absolute;inset:0;z-index:0}
+  .hours .hours-bg img{width:100%;height:100%;object-fit:cover;filter:saturate(.6) contrast(1.05) brightness(.42)}
+  .hours .hours-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(rgba(16,17,21,.84),rgba(16,17,21,.9))}
+  .hours-inner{position:relative;z-index:2}
+  .day-cards{display:grid;grid-template-columns:repeat(5,1fr);gap:16px}
+  .day-card{background:rgba(30,32,38,.7);border:1px solid var(--line-soft);border-radius:10px;padding:24px 14px;text-align:center;transition:transform .25s,border-color .25s,background .25s}
+  .day-card:hover{transform:translateY(-5px);border-color:var(--line)}
+  .day-card .d{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.18em;font-size:.86rem;color:var(--cream);margin-bottom:10px}
+  .day-card .t{font-family:'Oswald',sans-serif;font-size:.78rem;color:var(--muted);letter-spacing:.04em;line-height:1.7}
+  .day-card.today{background:var(--brass);border-color:var(--brass)}
+  .day-card.today .d,.day-card.today .t{color:#171612}
+  .closed-line{text-align:center;margin-top:26px;font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.26em;font-size:.82rem;color:var(--muted)}
+  .closed-line b{color:var(--brass)}
+
+  .gal-grid{display:grid;grid-template-columns:repeat(3,1fr);grid-auto-rows:200px;gap:16px}
+  .gal-grid .photo-ph{height:100%}
+  .gal-grid .tall{grid-row:span 2}
+  .gal-grid .wide{grid-column:span 2}
+
+  .cta-band{text-align:center;background:var(--bg-2);border-top:1px solid var(--line-soft);border-bottom:1px solid var(--line-soft)}
+  .cta-band h2{font-size:clamp(2rem,5vw,3.3rem);margin-bottom:16px}
+  .cta-band p{color:var(--muted);max-width:34rem;margin:0 auto 30px;font-size:1.1rem}
+  .cta-phone{font-family:'Playfair Display',serif;font-size:2rem;color:var(--brass);margin-top:22px;display:inline-block}
+
   .visit-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
   .info-card{background:var(--surface);border:1px solid var(--line-soft);border-radius:14px;padding:34px}
   .info-card h3{font-size:1.5rem;margin-bottom:22px}
-  .hours-row{display:flex;justify-content:space-between;padding:13px 0;border-bottom:1px solid var(--line-soft);font-family:'Oswald',sans-serif;letter-spacing:.04em;font-size:.96rem}
-  .hours-row:last-child{border-bottom:none}
-  .hours-row .day{color:var(--cream)}
-  .hours-row .time{color:var(--muted)}
-  .hours-row.closed .time{color:#7a7468}
-  .hours-row.today{color:var(--brass)}
-  .hours-row.today .day,.hours-row.today .time{color:var(--brass)}
-  .contact-line{display:flex;align-items:flex-start;gap:14px;padding:14px 0;border-bottom:1px solid var(--line-soft)}
+  .contact-line{display:flex;align-items:flex-start;gap:14px;padding:16px 0;border-bottom:1px solid var(--line-soft)}
   .contact-line:last-child{border-bottom:none}
   .contact-line svg{color:var(--brass);flex:none;margin-top:3px}
   .contact-line .k{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.14em;font-size:.62rem;color:var(--muted);display:block;margin-bottom:2px}
   .contact-line .v{color:var(--cream);font-size:1.02rem}
-  .map-frame{margin-top:26px;border-radius:14px;overflow:hidden;border:1px solid var(--line-soft);line-height:0}
-  .map-frame iframe{width:100%;height:300px;border:0;filter:grayscale(.4) contrast(1.05)}
+  .map-frame{border-radius:14px;overflow:hidden;border:1px solid var(--line-soft);line-height:0;height:100%}
+  .map-frame iframe{width:100%;height:100%;min-height:360px;border:0;filter:grayscale(.4) contrast(1.05)}
 
-  /* ---------- CTA band (solid bg, accent on button only) ---------- */
-  .cta-band{text-align:center}
-  .cta-band h2{font-size:clamp(2rem,5vw,3.2rem);margin-bottom:16px}
-  .cta-band p{color:var(--muted);max-width:34rem;margin:0 auto 30px;font-size:1.1rem}
-  .cta-phone{font-family:'Playfair Display',serif;font-size:2rem;color:var(--brass);margin-top:24px;display:inline-block}
-
-  /* ---------- Footer ---------- */
-  footer{background:#101114;border-top:1px solid var(--line);padding:64px 0 32px}
-  .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px;margin-bottom:42px}
+  footer{background:#101114;border-top:1px solid var(--line);padding:66px 0 32px}
+  .foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:44px;margin-bottom:44px}
   .foot-brand .brand-mark{margin-bottom:16px}
   .foot-brand p{color:var(--muted);font-size:.96rem;max-width:24rem}
   .foot-col h4{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.16em;font-size:.74rem;color:var(--brass);margin-bottom:18px}
@@ -278,42 +264,40 @@
   .foot-col a:hover{color:var(--cream)}
   .foot-bottom{border-top:1px solid var(--line-soft);padding-top:24px;text-align:center;color:#6c675b;font-size:.84rem;font-family:'Oswald',sans-serif;letter-spacing:.06em}
 
-  /* ---------- Mobile sticky CTA ---------- */
-  .mobile-cta{display:none;position:fixed;bottom:0;left:0;right:0;z-index:70;padding:12px 16px;background:rgba(16,17,21,.92);backdrop-filter:blur(12px);border-top:1px solid var(--line)}
+  .mobile-cta{display:none;position:fixed;bottom:0;left:0;right:0;z-index:70;padding:12px 16px;background:rgba(16,17,21,.94);backdrop-filter:blur(12px);border-top:1px solid var(--line)}
   .mobile-cta .btn{width:100%;justify-content:center}
 
-  /* ---------- Reveal ---------- */
-  .reveal{opacity:0;transform:translateY(30px);transition:opacity .8s ease,transform .8s ease}
+  .reveal{opacity:0;transform:translateY(32px);transition:opacity .85s ease,transform .85s ease}
   .reveal.in{opacity:1;transform:none}
-  .reveal.d1{transition-delay:.1s}.reveal.d2{transition-delay:.2s}.reveal.d3{transition-delay:.3s}
+  .reveal.d1{transition-delay:.1s}.reveal.d2{transition-delay:.2s}.reveal.d3{transition-delay:.3s}.reveal.d4{transition-delay:.4s}
 
-  /* ---------- Mobile drawer ---------- */
-  .drawer{position:fixed;inset:0;z-index:80;background:rgba(16,17,21,.97);backdrop-filter:blur(8px);display:none;flex-direction:column;align-items:center;justify-content:center;gap:30px}
+  .drawer{position:fixed;inset:0;z-index:80;background:rgba(16,17,21,.97);backdrop-filter:blur(8px);display:none;flex-direction:column;align-items:center;justify-content:center;gap:28px}
   .drawer.open{display:flex}
-  .drawer a{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.18em;font-size:1.3rem;color:var(--cream)}
+  .drawer a{font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:.18em;font-size:1.25rem;color:var(--cream)}
   .drawer .close{position:absolute;top:24px;right:24px;background:none;border:none;color:var(--cream);font-size:2rem;cursor:pointer}
 
-  @media(max-width:900px){
-    .hero-grid{grid-template-columns:1fr;gap:46px}
-    .hero-photo{order:-1;max-width:440px}
-    .about-grid{grid-template-columns:1fr;gap:40px}
-    .about-photo{max-width:420px}
-    .svc-grid{grid-template-columns:repeat(2,1fr)}
-    .rev-grid{grid-template-columns:1fr}
-    .visit-grid{grid-template-columns:1fr}
-    .foot-grid{grid-template-columns:1fr;gap:30px}
-    .nav-links{display:none}
-    .nav .nav-cta{display:none}
-    .menu-btn{display:block}
-    .mobile-cta{display:block}
-    body{padding-bottom:78px}
-    section{padding:78px 0}
+  @media(max-width:980px){
+    .nav-links{display:none}.nav .nav-cta{display:none}.menu-btn{display:block}
+    .mobile-cta{display:block}body{padding-bottom:78px}
   }
-  @media(max-width:560px){
-    .svc-grid{grid-template-columns:1fr}
-    .strip-grid{justify-content:flex-start;gap:18px}
-    .hero-cta{flex-direction:column}
-    .hero-cta .btn{width:100%;justify-content:center}
+  @media(max-width:860px){
+    .intro-grid{grid-template-columns:1fr;gap:44px}.intro-photo{order:-1;max-width:440px}
+    .intro-body .cols{column-count:1}
+    .price-row{grid-template-columns:1fr;gap:34px}
+    .price-row .pr-photo{order:-1;max-width:480px}
+    .rev-grid{grid-template-columns:1fr}
+    .day-cards{grid-template-columns:repeat(2,1fr)}
+    .gal-grid{grid-template-columns:repeat(2,1fr);grid-auto-rows:170px}
+    .gal-grid .wide{grid-column:span 2}.gal-grid .tall{grid-row:span 1}
+    .visit-grid{grid-template-columns:1fr}.map-frame iframe{min-height:300px}
+    .foot-grid{grid-template-columns:1fr;gap:30px}
+    section{padding:82px 0}
+  }
+  @media(max-width:540px){
+    .hero-cta{flex-direction:column}.hero-cta .btn{width:100%;justify-content:center}
+    .day-cards{grid-template-columns:1fr}
+    .gal-grid{grid-template-columns:1fr;grid-auto-rows:200px}.gal-grid .wide{grid-column:span 1}
+    .trust-item{min-width:46%}
   }
 </style>
 </head>
@@ -329,8 +313,10 @@
     <nav class="nav-links">
       <a href="#about">About</a>
       <a href="#services">Services</a>
-      <a href="#reviews">Reviews</a>
-      <a href="#visit">Visit</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#hours">Hours</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#visit">Contact</a>
     </nav>
     <a href="tel:+18154983300" class="nav-cta">Book Now</a>
     <button class="menu-btn" id="menuBtn" aria-label="Open menu">
@@ -343,140 +329,185 @@
   <button class="close" id="drawerClose" aria-label="Close menu">&times;</button>
   <a href="#about" data-close>About</a>
   <a href="#services" data-close>Services</a>
-  <a href="#reviews" data-close>Reviews</a>
-  <a href="#visit" data-close>Visit</a>
+  <a href="#pricing" data-close>Pricing</a>
+  <a href="#hours" data-close>Hours</a>
+  <a href="#gallery" data-close>Gallery</a>
+  <a href="#visit" data-close>Contact</a>
   <a href="tel:+18154983300" class="btn btn-primary" data-close>Book Now</a>
 </div>
 
 <!-- ============ HERO ============ -->
 <span id="top"></span>
 <section class="hero">
-  <div class="hero-deco"></div>
-  <div class="wrap">
-    <div class="hero-grid">
-      <div class="hero-copy">
-        <span class="eyebrow reveal">Downtown Somonauk, Illinois</span>
-        <h1 class="reveal d1">A real barbershop.<br><em>One chair, one barber.</em></h1>
-        <p class="hero-lead reveal d2">The kind of haircut your dad and your grandpa swore by. Walk in, sit down, talk a while &mdash; Doug's been keeping Somonauk men sharp for generations.</p>
-        <div class="hero-rating reveal d2">
-          <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
-          <span class="price-num">4.8 on Google &middot; 43 reviews</span>
-        </div>
-        <div class="hero-cta reveal d3">
-          <a href="tel:+18154983300" class="btn btn-primary btn-pulse">Book Now</a>
-          <a href="tel:+18154983300" class="btn btn-ghost">Call (815) 498-3300</a>
-        </div>
+  <div class="hero-bg">
+    <!-- REPLACE WITH REAL PHOTO: Doug at the chair / shop front -->
+    <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=1920&q=80" alt="Barber giving a classic haircut" onerror="this.remove()">
+  </div>
+  <div class="hero-inner">
+    <div class="hero-copy">
+      <span class="eyebrow reveal">Downtown Somonauk, Illinois</span>
+      <h1 class="reveal d1">Haircuts &amp; shaves<br><em>for real men.</em></h1>
+      <p class="hero-lead reveal d2">One chair, one barber, and the kind of haircut your dad and your grandpa swore by. Walk in, sit down, talk a while &mdash; Doug's been keeping Somonauk sharp for generations.</p>
+      <div class="hero-rating reveal d2">
+        <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+        <span class="price-num">4.8 on Google &middot; 43 reviews</span>
       </div>
-      <div class="hero-photo reveal d2">
-        <div class="photo-ph">
-          <div>
-            <svg class="cam" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-            <div class="lbl">Doug at the chair</div>
-          </div>
+      <div class="hero-cta reveal d3">
+        <a href="tel:+18154983300" class="btn btn-primary btn-pulse">Make an Appointment</a>
+        <a href="tel:+18154983300" class="btn btn-ghost">Call (815) 498-3300</a>
+      </div>
+    </div>
+  </div>
+  <a href="#about" class="scroll-cue" aria-label="Scroll down">
+    Step Inside
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+  </a>
+</section>
+
+<!-- ============ INTRO ============ -->
+<section id="about">
+  <div class="wrap">
+    <div class="intro-grid">
+      <div class="intro-photo reveal">
+        <div class="photo-ph photo-frame">
+          <div class="ph-fallback"><svg class="cam" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg><div class="lbl">Inside the shop</div></div>
+          <!-- REPLACE WITH REAL PHOTO: shop interior / Doug at work -->
+          <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=80" alt="Barber at work in the shop" loading="lazy" onerror="this.remove()">
         </div>
-        <!-- REPLACE WITH REAL PHOTO: Doug cutting hair / the shop chair -->
-        <div class="hero-badge">
-          <b class="price-num">&#9733; 4.8</b>
-          <span>43 Google reviews</span>
+        <p class="signoff">&mdash; Doug</p>
+      </div>
+      <div class="intro-body reveal d1">
+        <span class="eyebrow">Introducing</span>
+        <h2 style="font-size:clamp(2rem,4.6vw,3.1rem);margin:12px 0 22px;">Welcome to Doug's Barbershop.</h2>
+        <p style="font-family:'Playfair Display',serif;font-style:italic;font-size:1.22rem;color:var(--cream);line-height:1.5;margin-bottom:22px;">"Show up for a haircut, stay for the quality company and hospitality."</p>
+        <div class="cols">
+          <p class="dropcap">That's how the regulars put it, and that's the whole idea. Doug's isn't a chain with a wait-list and a screen telling you which stylist is "available." It's one barber who's been doing this a long time.</p>
+          <p>It's a shop where families have been getting their hair cut for generations &mdash; the picky kid who hates the chain places, the guy who knows exactly how he likes his taper, the dad bringing in his boys for the first time.</p>
+          <p>Doug actually listens to what you want. Classic cuts, a clean straight-razor shave, a beard tidied up right, and the razor-shaped styling he's known for. No fuss, no upsell &mdash; just a good haircut and good conversation.</p>
+        </div>
+        <div class="intro-stats">
+          <div class="intro-stat"><b class="price-num">4.8&#9733;</b><span>Google Rating</span></div>
+          <div class="intro-stat"><b class="price-num">43</b><span>Reviews</span></div>
+          <div class="intro-stat"><b>1</b><span>Chair, All You</span></div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============ STRIP ============ -->
-<div class="strip">
+<!-- ============ FEATURE / QUOTE BAND ============ -->
+<section class="feature">
+  <div class="feat-bg">
+    <!-- REPLACE WITH REAL PHOTO: wide shot of the shop -->
+    <img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=1920&q=80" alt="Classic barbershop interior" loading="lazy" onerror="this.remove()">
+  </div>
+  <div class="feature-inner reveal">
+    <a href="tel:+18154983300" class="play-call" aria-label="Call Doug's">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    </a>
+    <blockquote>"Old school service. I love it&hellip; fun atmosphere!"</blockquote>
+    <cite>&mdash; Art P., Somonauk</cite>
+  </div>
+</section>
+
+<!-- ============ TRUST STRIP ============ -->
+<div class="trust">
   <div class="wrap">
-    <div class="strip-grid">
-      <div class="strip-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>One barber, full attention</div>
-      <div class="strip-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>Walk-ins welcome</div>
-      <div class="strip-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>On Route 34, downtown</div>
-      <div class="strip-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>Open Tue&ndash;Sat</div>
+    <div class="trust-grid">
+      <div class="trust-item reveal"><b class="price-num">4.8&#9733;</b><span>Google Rated</span></div>
+      <div class="trust-item reveal d1"><b class="price-num">43</b><span>Five-Star Reviews</span></div>
+      <div class="trust-item reveal d2"><b>Walk-Ins</b><span>Always Welcome</span></div>
+      <div class="trust-item reveal d3"><b>Route 34</b><span>Downtown Somonauk</span></div>
     </div>
   </div>
 </div>
 
-<!-- ============ ABOUT ============ -->
-<section id="about">
-  <div class="wrap">
-    <div class="about-grid">
-      <div class="about-photo reveal">
-        <div class="photo-ph">
-          <div>
-            <svg class="cam" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
-            <div class="lbl">Inside the shop</div>
-          </div>
-        </div>
-        <!-- REPLACE WITH REAL PHOTO: shop interior / vintage barber chair -->
-      </div>
-      <div class="about-body reveal d1">
-        <span class="eyebrow">The Shop</span>
-        <h2 style="font-size:clamp(2rem,4.4vw,3rem);margin:14px 0 22px;">Old-school, the way it should be.</h2>
-        <p class="lead">"Show up for a haircut, stay for the quality company and hospitality."</p>
-        <p>That's how the regulars describe it, and that's the whole idea. Doug's isn't a chain with a wait-list and a screen telling you which stylist is "available." It's one barber who's been doing this a long time, in a shop where families have been getting their hair cut for generations.</p>
-        <p>Doug actually listens to what you want &mdash; the picky kid who hates the chain places, the guy who knows exactly how he likes his taper, the dad bringing in his boys for the first time. Classic cuts, a clean straight-razor shave, a beard tidied up right. No fuss, no upsell, just a good haircut and good conversation.</p>
-        <p class="signoff">&mdash; Doug</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ SERVICES ============ -->
-<section id="services">
+<!-- ============ PRICING ============ -->
+<section id="pricing">
   <div class="wrap">
     <div class="sec-head center reveal">
       <span class="eyebrow">What Doug Does</span>
-      <h2>Services</h2>
-      <p>Everything a man needs to walk out looking sharp. No public price list &mdash; just fair, honest pricing. Call and ask.</p>
+      <h2 id="services">Services &amp; Pricing</h2>
+      <div class="divider-ornament"><span></span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 9l6 6 6-6"/></svg><span></span></div>
+      <p style="margin-top:14px;">Honest, fair pricing &mdash; the way a barbershop should be.</p>
     </div>
-    <div class="svc-grid">
 
-      <div class="svc-card reveal">
-        <div class="photo-ph"><div><svg class="cam" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg><div class="lbl">Men's haircut</div></div></div>
-        <!-- REPLACE WITH REAL PHOTO -->
-        <div class="svc-body"><h3>Men's Haircuts</h3><p>Classic cuts, clean tapers, and trims done the way you ask for them. The cut your barber should already know.</p></div>
+    <div class="price-row">
+      <div class="pr-photo reveal">
+        <div class="photo-ph photo-frame">
+          <div class="ph-fallback"><svg class="cam" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg><div class="lbl">Haircut in progress</div></div>
+          <!-- REPLACE WITH REAL PHOTO -->
+          <img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=900&q=80" alt="Man receiving a classic haircut" loading="lazy" onerror="this.remove()">
+        </div>
       </div>
-
-      <div class="svc-card reveal d1">
-        <div class="photo-ph"><div><svg class="cam" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg><div class="lbl">Straight razor shave</div></div></div>
-        <!-- REPLACE WITH REAL PHOTO -->
-        <div class="svc-body"><h3>Straight Razor Shaves</h3><p>A hot-towel, straight-razor shave that you don't get at home. Close, clean, and worth slowing down for.</p></div>
+      <div class="price-list reveal d1">
+        <div class="price-list-head"><h3>Haircut Style</h3><div class="brass-rule"></div></div>
+        <div class="price-item">
+          <div class="top"><span class="nm">Men's Haircut</span><span class="lead-dots"></span><span class="amt price-num">$20</span></div><!-- PLACEHOLDER -->
+          <p>Cut and styled the way you ask for it. The classic.</p>
+        </div>
+        <div class="price-item">
+          <div class="top"><span class="nm">Classic Cut &amp; Taper</span><span class="lead-dots"></span><span class="amt price-num">$22</span></div><!-- PLACEHOLDER -->
+          <p>A clean taper or fade, lined up sharp at the neck and ears.</p>
+        </div>
+        <div class="price-item">
+          <div class="top"><span class="nm">Kids' Cut (12 &amp; under)</span><span class="lead-dots"></span><span class="amt price-num">$15</span></div><!-- PLACEHOLDER -->
+          <p>Patient with the young ones &mdash; even the picky ones.</p>
+        </div>
+        <div class="price-item">
+          <div class="top"><span class="nm">Senior Cut</span><span class="lead-dots"></span><span class="amt price-num">$17</span></div><!-- PLACEHOLDER -->
+          <p>The same care, a neighborly rate for longtime regulars.</p>
+        </div>
+        <p class="price-note">Prices shown are typical &mdash; call (815) 498-3300 to confirm.</p>
       </div>
+    </div>
 
-      <div class="svc-card reveal d2">
-        <div class="photo-ph"><div><svg class="cam" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg><div class="lbl">Beard trim</div></div></div>
-        <!-- REPLACE WITH REAL PHOTO -->
-        <div class="svc-body"><h3>Beard Shaping &amp; Trims</h3><p>Lined up, evened out, and shaped to your face. Keep the beard looking deliberate instead of grown-out.</p></div>
+    <div class="price-row">
+      <div class="price-list reveal">
+        <div class="price-list-head"><h3>Shaves &amp; Beard</h3><div class="brass-rule"></div></div>
+        <div class="price-item">
+          <div class="top"><span class="nm">Straight Razor Shave</span><span class="lead-dots"></span><span class="amt price-num">$25</span></div><!-- PLACEHOLDER -->
+          <p>Hot-towel, straight-razor shave you don't get at home.</p>
+        </div>
+        <div class="price-item">
+          <div class="top"><span class="nm">Beard Shape &amp; Trim</span><span class="lead-dots"></span><span class="amt price-num">$15</span></div><!-- PLACEHOLDER -->
+          <p>Lined up, evened out, and shaped to your face.</p>
+        </div>
+        <div class="price-item">
+          <div class="top"><span class="nm">Razor Shaping &amp; Styling</span><span class="tag">Doug's Specialty</span><span class="lead-dots"></span><span class="amt price-num">$30</span></div><!-- PLACEHOLDER -->
+          <p>Texture and movement cut by hand &mdash; what Doug's known for.</p>
+        </div>
+        <div class="price-item">
+          <div class="top"><span class="nm">Hair Straightening</span><span class="lead-dots"></span><span class="amt price-num">$40</span></div><!-- PLACEHOLDER -->
+          <p>Done with a barber's eye, so it still looks like your hair.</p>
+        </div>
+        <div class="price-item">
+          <div class="top"><span class="nm">Handmade Hairpieces</span><span class="lead-dots"></span><span class="amt">By Consult</span></div>
+          <p>Custom, handmade hairpieces fitted and matched in-shop.</p>
+        </div>
+        <p class="price-note">Prices shown are typical &mdash; call (815) 498-3300 to confirm.</p>
       </div>
-
-      <div class="svc-card reveal">
-        <div class="photo-ph"><div><svg class="cam" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg><div class="lbl">Razor shaping</div></div></div>
-        <!-- REPLACE WITH REAL PHOTO -->
-        <div class="svc-body"><h3>Razor Shaping &amp; Styling<span class="tag">Doug's Specialty</span></h3><p>Razor-shaped styling is what Doug's known for &mdash; texture and movement cut by hand, finished to suit you.</p></div>
+      <div class="pr-photo reveal d1">
+        <div class="photo-ph photo-frame">
+          <div class="ph-fallback"><svg class="cam" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg><div class="lbl">Straight razor work</div></div>
+          <!-- REPLACE WITH REAL PHOTO -->
+          <img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=900&q=80" alt="Beard trim and straight razor work" loading="lazy" onerror="this.remove()">
+        </div>
       </div>
-
-      <div class="svc-card reveal d1">
-        <div class="photo-ph"><div><svg class="cam" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg><div class="lbl">Hair straightening</div></div></div>
-        <!-- REPLACE WITH REAL PHOTO -->
-        <div class="svc-body"><h3>Hair Straightening</h3><p>Straightening done with a barber's eye, so it falls naturally and still looks like your hair &mdash; not a helmet.</p></div>
-      </div>
-
-      <div class="svc-card reveal d2">
-        <div class="photo-ph"><div><svg class="cam" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg><div class="lbl">Handmade hairpieces</div></div></div>
-        <!-- REPLACE WITH REAL PHOTO -->
-        <div class="svc-body"><h3>Quality Handmade Hairpieces</h3><p>Custom, handmade hairpieces fitted and matched in-shop &mdash; a quiet specialty Doug's built a reputation on.</p></div>
-      </div>
-
     </div>
   </div>
 </section>
 
-<!-- ============ REVIEWS ============ -->
-<section id="reviews">
-  <div class="wrap">
+<!-- ============ TESTIMONIALS ============ -->
+<section class="testi">
+  <div class="testi-bg">
+    <!-- REPLACE WITH REAL PHOTO -->
+    <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1920&q=80" alt="Barber tools" loading="lazy" onerror="this.remove()">
+  </div>
+  <div class="wrap testi-inner">
     <div class="sec-head center reveal">
-      <span class="eyebrow">From the Chair</span>
-      <h2>What Somonauk Says</h2>
+      <span class="eyebrow">What They Say</span>
+      <h2>The Talk Around Somonauk</h2>
       <p><span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span> <span class="price-num">4.8 stars across 43 Google reviews</span></p>
     </div>
     <div class="rev-grid">
@@ -484,25 +515,77 @@
         <div class="q">&ldquo;</div>
         <div class="rev-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
         <p>"My family has generations getting their haircut at Doug's. Show up for a haircut, stay for the quality company and hospitality."</p>
-        <div class="rev-name">Tyler G.</div>
+        <div class="rev-who"><div class="rev-av">T</div><div><div class="rev-name">Tyler G.</div><div class="rev-loc">Google Review</div></div></div>
       </div>
       <div class="rev-card reveal d1">
         <div class="q">&ldquo;</div>
         <div class="rev-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <p>"Took my two picky grandsons to Doug for a haircut. They both complained that the chain places don't listen to what they want. Doug did a great job! Both boys very happy!"</p>
-        <div class="rev-name">Susan F.</div>
+        <p>"Took my two picky grandsons to Doug for a haircut. They complained the chain places don't listen. Doug did a great job &mdash; both boys very happy!"</p>
+        <div class="rev-who"><div class="rev-av">S</div><div><div class="rev-name">Susan F.</div><div class="rev-loc">Google Review</div></div></div>
       </div>
       <div class="rev-card reveal d2">
         <div class="q">&ldquo;</div>
         <div class="rev-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <p>"Old school service. I love it... fun atmosphere!"</p>
-        <div class="rev-name">Art P.</div>
+        <p>"Old school service. I love it&hellip; fun atmosphere!"</p>
+        <div class="rev-who"><div class="rev-av">A</div><div><div class="rev-name">Art P.</div><div class="rev-loc">Google Review</div></div></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============ VISIT ============ -->
+<!-- ============ HOURS ============ -->
+<section id="hours" class="hours">
+  <div class="hours-bg">
+    <!-- REPLACE WITH REAL PHOTO -->
+    <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=1920&q=80" alt="Barbershop chair" loading="lazy" onerror="this.remove()">
+  </div>
+  <div class="wrap hours-inner">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">Working Hours</span>
+      <h2>Check Our Schedule</h2>
+      <p>Open Tuesday through Saturday. Walk in or call ahead &mdash; either way, you're welcome.</p>
+    </div>
+    <div class="day-cards reveal d1">
+      <div class="day-card" data-day="2"><div class="d">Tue</div><div class="t price-num">7:00 AM<br>4:30 PM</div></div>
+      <div class="day-card" data-day="3"><div class="d">Wed</div><div class="t price-num">7:00 AM<br>4:30 PM</div></div>
+      <div class="day-card" data-day="4"><div class="d">Thu</div><div class="t price-num">7:00 AM<br>4:30 PM</div></div>
+      <div class="day-card" data-day="5"><div class="d">Fri</div><div class="t price-num">7:00 AM<br>4:30 PM</div></div>
+      <div class="day-card" data-day="6"><div class="d">Sat</div><div class="t price-num">7:00 AM<br>12:00 PM</div></div>
+    </div>
+    <div class="closed-line">Sunday &amp; Monday &middot; <b>We're Closed</b></div>
+  </div>
+</section>
+
+<!-- ============ GALLERY ============ -->
+<section id="gallery">
+  <div class="wrap">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">Step Inside</span>
+      <h2>A Look Around the Shop</h2>
+      <p>Check the gallery &mdash; and you'll feel right at home before you walk in.</p>
+    </div>
+    <div class="gal-grid">
+      <div class="photo-ph tall reveal"><div class="ph-fallback"><svg class="cam" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg><div class="lbl">The chair</div></div><!-- REPLACE WITH REAL PHOTO --><img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=700&q=80" alt="Barber at the chair" loading="lazy" onerror="this.remove()"></div>
+      <div class="photo-ph reveal d1"><div class="ph-fallback"><svg class="cam" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg><div class="lbl">Tools of the trade</div></div><!-- REPLACE WITH REAL PHOTO --><img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=700&q=80" alt="Barber clippers and tools" loading="lazy" onerror="this.remove()"></div>
+      <div class="photo-ph reveal d2"><div class="ph-fallback"><svg class="cam" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg><div class="lbl">Clean fade</div></div><!-- REPLACE WITH REAL PHOTO --><img src="https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&w=700&q=80" alt="Fresh haircut" loading="lazy" onerror="this.remove()"></div>
+      <div class="photo-ph wide reveal"><div class="ph-fallback"><svg class="cam" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg><div class="lbl">Inside the studio</div></div><!-- REPLACE WITH REAL PHOTO --><img src="https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&w=1100&q=80" alt="Barbershop interior" loading="lazy" onerror="this.remove()"></div>
+      <div class="photo-ph reveal d1"><div class="ph-fallback"><svg class="cam" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg><div class="lbl">Straight razor</div></div><!-- REPLACE WITH REAL PHOTO --><img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=700&q=80" alt="Straight razor shave" loading="lazy" onerror="this.remove()"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BAND ============ -->
+<section class="cta-band">
+  <div class="wrap reveal">
+    <span class="eyebrow">Ready When You Are</span>
+    <h2>Time for a real haircut?</h2>
+    <p>No app, no account, no wait-list games. Pick up the phone or just walk in &mdash; Doug will take care of you.</p>
+    <a href="tel:+18154983300" class="btn btn-primary btn-pulse">Make an Appointment</a>
+    <a href="tel:+18154983300" class="cta-phone price-num">(815) 498-3300</a>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
 <section id="visit">
   <div class="wrap">
     <div class="sec-head reveal">
@@ -512,16 +595,6 @@
     </div>
     <div class="visit-grid">
       <div class="info-card reveal">
-        <h3>Hours</h3>
-        <div class="hours-row" data-day="2"><span class="day">Tuesday</span><span class="time price-num">7:00am &ndash; 4:30pm</span></div>
-        <div class="hours-row" data-day="3"><span class="day">Wednesday</span><span class="time price-num">7:00am &ndash; 4:30pm</span></div>
-        <div class="hours-row" data-day="4"><span class="day">Thursday</span><span class="time price-num">7:00am &ndash; 4:30pm</span></div>
-        <div class="hours-row" data-day="5"><span class="day">Friday</span><span class="time price-num">7:00am &ndash; 4:30pm</span></div>
-        <div class="hours-row" data-day="6"><span class="day">Saturday</span><span class="time price-num">7:00am &ndash; 12:00pm</span></div>
-        <div class="hours-row closed" data-day="0"><span class="day">Sunday</span><span class="time">Closed</span></div>
-        <div class="hours-row closed" data-day="1"><span class="day">Monday</span><span class="time">Closed</span></div>
-      </div>
-      <div class="info-card reveal d1">
         <h3>Contact</h3>
         <a class="contact-line" href="tel:+18154983300">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
@@ -535,22 +608,15 @@
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
           <span><span class="k">Email</span><span class="v">johnnyrizzuto125@gmail.com</span></span>
         </a>
-        <div class="map-frame">
-          <iframe src="https://www.google.com/maps?q=130+W+Market+St,+Somonauk,+IL+60552&output=embed" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map to Doug's Hair Studio for Men"></iframe>
-        </div>
+        <a class="contact-line" href="#hours">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          <span><span class="k">Hours</span><span class="v price-num">Tue&ndash;Fri 7&ndash;4:30 &middot; Sat 7&ndash;12 &middot; Sun &amp; Mon closed</span></span>
+        </a>
+      </div>
+      <div class="map-frame reveal d1">
+        <iframe src="https://www.google.com/maps?q=130+W+Market+St,+Somonauk,+IL+60552&output=embed" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Map to Doug's Hair Studio for Men"></iframe>
       </div>
     </div>
-  </div>
-</section>
-
-<!-- ============ CTA BAND ============ -->
-<section class="cta-band">
-  <div class="wrap reveal">
-    <span class="eyebrow">Ready When You Are</span>
-    <h2>Time for a real haircut?</h2>
-    <p>No app, no account, no wait-list games. Pick up the phone or just walk in &mdash; Doug will take care of you.</p>
-    <a href="tel:+18154983300" class="btn btn-primary btn-pulse">Book Now</a>
-    <a href="tel:+18154983300" class="cta-phone price-num">(815) 498-3300</a>
   </div>
 </section>
 
@@ -560,14 +626,14 @@
     <div class="foot-grid">
       <div class="foot-brand">
         <div class="brand-mark">D</div>
-        <p>Doug's Hair Studio for Men &mdash; an old-school, one-chair barbershop in downtown Somonauk, Illinois. Classic cuts, straight-razor shaves, and good conversation since way back.</p>
+        <p>Doug's Hair Studio for Men &mdash; an old-school, one-chair barbershop in downtown Somonauk, Illinois. Classic cuts, straight-razor shaves, and good conversation.</p>
       </div>
       <div class="foot-col">
         <h4>The Shop</h4>
         <a href="#about">About Doug's</a>
-        <a href="#services">Services</a>
-        <a href="#reviews">Reviews</a>
-        <a href="#visit">Hours &amp; Location</a>
+        <a href="#pricing">Services &amp; Pricing</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#hours">Hours</a>
       </div>
       <div class="foot-col">
         <h4>Visit</h4>
@@ -580,36 +646,28 @@
   </div>
 </footer>
 
-<!-- ============ MOBILE STICKY CTA ============ -->
 <div class="mobile-cta">
-  <a href="tel:+18154983300" class="btn btn-primary">Book Now &middot; (815) 498-3300</a>
+  <a href="tel:+18154983300" class="btn btn-primary">Make an Appointment &middot; (815) 498-3300</a>
 </div>
 
 <script>
-  // Header scroll state
   const header=document.getElementById('header');
   const onScroll=()=>header.classList.toggle('scrolled',window.scrollY>20);
   onScroll();window.addEventListener('scroll',onScroll,{passive:true});
 
-  // Mobile drawer
   const drawer=document.getElementById('drawer');
   document.getElementById('menuBtn').addEventListener('click',()=>drawer.classList.add('open'));
   document.getElementById('drawerClose').addEventListener('click',()=>drawer.classList.remove('open'));
   drawer.querySelectorAll('[data-close]').forEach(a=>a.addEventListener('click',()=>drawer.classList.remove('open')));
 
-  // Reveal on scroll
   const io=new IntersectionObserver((entries)=>{
     entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});
-  },{threshold:.14,rootMargin:'0px 0px -40px 0px'});
+  },{threshold:.12,rootMargin:'0px 0px -40px 0px'});
   document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 
-  // Highlight today's hours
   const today=new Date().getDay();
-  document.querySelectorAll('.hours-row').forEach(r=>{
-    if(parseInt(r.dataset.day,10)===today)r.classList.add('today');
-  });
+  document.querySelectorAll('.day-card').forEach(c=>{if(parseInt(c.dataset.day,10)===today)c.classList.add('today');});
 
-  // Year
   document.getElementById('yr').textContent=new Date().getFullYear();
 </script>
 
